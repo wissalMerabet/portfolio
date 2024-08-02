@@ -16,7 +16,7 @@ export const CardProject: React.FC<{
       <p className="">{description}</p>
       <div className="">
         {skills.length > 0 && (
-          <ul className="flex flex-row space-x-3">
+          <ul className="flex flex-row space-x-2">
             {skills.map((skill, index) => (
               <li className="bg-BgPurpleC  rounded-2xl p-2 " key={index}>{skill}</li>
             ))}

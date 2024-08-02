@@ -28,7 +28,7 @@ export const Hero = () => {
       <motion.div className="md:w-1/2" initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 2 }}>
-        <img src="./assets/heroimg.png" alt="" className="HeroImg z-"/>    
+        <img src="./assets/heroimg.png" alt="" className="HeroImg z-0"/>    
       </motion.div>
 
       

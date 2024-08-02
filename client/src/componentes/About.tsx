@@ -21,7 +21,7 @@ export const About = () => {
                 data-aos="fade-up"
             />
             <ul className="space-y-8 md:w-2/3 ">
-                <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-left" >
+                <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-down" >
                     <img src="./assets/frontend.png" alt="" className="w-16 h-16"/>
                     <div>
                         <h3 className="font-bold mb-1 text-lg md:text-xl">Frontend Developer</h3>
@@ -30,7 +30,7 @@ export const About = () => {
                         </p>
                     </div>
                 </li>
-                <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-left" data-aos-delay="200">
+                <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-down" data-aos-delay="200">
                     <img src="./assets/backend.png" alt="" className="w-16 h-16"/>
                     <div>
                         <h3 className="font-bold mb-1 text-lg md:text-xl ">Backend Developer</h3>
@@ -39,7 +39,7 @@ export const About = () => {
                         </p>
                     </div>
                 </li>
-                <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-left" data-aos-delay="400">
+                <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-down" data-aos-delay="400">
                     <img src="./assets/dsigner.png" alt="" className="w-16 h-16"/>
                     <div>
                         <h3 className="font-bold mb-1 text-lg md:text-xl ">Designer</h3>

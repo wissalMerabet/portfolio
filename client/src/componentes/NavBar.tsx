@@ -9,7 +9,7 @@ export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="  text-white bg-BgPurple mx-auto p-6 w-full fixed top-0 left-0 z-10 shadow-custom-yellow rounded-b-3xl">
+    <nav className="  bg-BgPurple mx-auto p-5 w-full fixed top-0 left-0 z-10 shadow-custom-yellow rounded-b-3xl">
       <div className="flex items-center justify-between">
 
         <a href="/" className="">
