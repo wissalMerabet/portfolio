@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+  
+}
+html {
+  scroll-behavior: smooth;
+  color: white;
+}
+
+.HeroImg {
+  animation-name: image;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes image {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.glow {
+  transition: all 0.3s ease-in-out;
+}
+.glow:hover {
+  box-shadow: 0 0 20px rgba(255, 239, 0, 1);
+}
+.btn {
+  transition: all 0.5s ease-in-out;
+}
+.item {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(255, 239, 0, 1);
+}
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid yellow; /* cursor */
+  white-space: nowrap; /* keeps the text on one line */
+  margin: 0 auto; /* gives that scrolling effect as the typing happens */
+  letter-spacing: .12em; /* a little bit of space between each letter */
+  animation: typing 5s steps(20, end) infinite, blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  50%, 100% { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: yellow; }
+}
+
+
+
+

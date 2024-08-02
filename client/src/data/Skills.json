@@ -1,0 +1,44 @@
+[
+  {
+    "imageSrc": "./assets/html.png"
+  },
+  {
+    "imageSrc": "./assets/css.png"
+  },
+  {
+    "imageSrc": "./assets/node.png"
+  },
+  {
+    "imageSrc": "./assets/react.png"
+  },
+  {
+    "imageSrc": "./assets/tailwind.png"
+  },
+  {
+    "imageSrc": "./assets/bot.png"
+  },
+  {
+    "imageSrc": "./assets/mongo.png"
+  },
+  {
+    "imageSrc": "./assets/mySql.png"
+  },
+  {
+    "imageSrc": "./assets/php.png"
+  },
+  {
+    "imageSrc": "./assets/py.png"
+  },
+  {
+    "imageSrc": "./assets/java.png"
+  },
+  {
+    "imageSrc": "./assets/git.png"
+  },
+  {
+    "imageSrc": "./assets/figma.png"
+  },
+  {
+    "imageSrc": "./assets/ilus.png"
+  }
+]

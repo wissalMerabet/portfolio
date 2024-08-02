@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Medical Analysis Laboratory",
+        "imageSrc": "./assets/gr.png",
+        "description": "This project involved developing a management system for a medical analysis laboratory. Using Java and the multi-client server concept with threads. The project was a team effort with five members.",
+        "skills": [
+            "java",
+            "MySQL"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "E-commerce Website for Food",
+        "imageSrc": "./assets/daw.png",
+        "description": "This project involved creating an e-commerce website for food products with separate admin and user functionalities. Users can search and purchase food items online.",
+        "skills": [
+            "Html",
+            "Css",
+            "Js",
+            "Php",
+            "MySQL"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Pharmacy Web Application",
+        "imageSrc": "./assets/cmpt.png",
+        "description": "This project involved creating a web application for a pharmacy as part of the Esperanza Club competition. The app included inventory management. Our team of four won third place.",
+        "skills": [
+            "Html",
+            "Php",
+            "Bootstrap",
+            "MySQL"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    }
+]
