@@ -16,7 +16,7 @@ export const Footer = () => {
         </a>
         
         <div className="">
-            <ul className="flex flex-row space-x-4 justify-center p-3 font-bold" data-aos="fade-left">
+            <ul className="flex flex-row space-x-4 justify-center p-3 font-bold" data-aos="fade-down">
                 <li><a href="#home" className="hover:text-bgYellow">Home</a></li>
                 <li><a href="#about" className="hover:text-bgYellow">About</a></li>
                 <li><a href="#skills" className="hover:text-bgYellow">Skills</a></li>

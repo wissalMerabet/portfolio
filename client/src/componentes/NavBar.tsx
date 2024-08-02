@@ -12,7 +12,7 @@ export const NavBar = () => {
     <nav className="  text-white bg-BgPurple mx-auto p-6 w-full fixed top-0 left-0 z-10 shadow-custom-yellow rounded-b-3xl">
       <div className="flex items-center justify-between">
 
-        <a href="/" className="md:pl-20">
+        <a href="/" className="">
           <img src="./assets/navBarLogo.png" alt="logo" className="object-cover w-30 h-10"/>
         </a>
 
