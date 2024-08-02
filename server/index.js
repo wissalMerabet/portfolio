@@ -44,6 +44,17 @@ app.get("/Message", async (req, res) => {
   }
 });
 
+app.get("/Allmessages", async (req, res) => {
+  try {
+    const messages = await NewMessage.find({}, 'message -_id'); // Find all documents but only return the message field
+    const messageTexts = messages.map(msg => msg.message); // Extract the message field
+    res.json(messageTexts); // Return the array of messages
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch messages" });
+  }
+});
+
+
 app.post('/sendMsg', async (req, res) => {
   const { name, email, message } = req.body;
 
