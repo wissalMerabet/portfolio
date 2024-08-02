@@ -13,7 +13,7 @@ export const NavBar = () => {
       <div className="flex items-center justify-between">
 
         <a href="/" className="md:pl-20">
-          <img src="https://wissal-merabet-portfolio.netlify.app/assets/navBarLogo.png" alt="logo" className="object-cover w-30 h-10"/>
+          <img src="./assets/navBarLogo.png" alt="logo" className="object-cover w-30 h-10"/>
         </a>
 
         <ul className="hidden md:flex ml-14 space-x-12">
