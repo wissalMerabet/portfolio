@@ -7,7 +7,10 @@ const mongoose = require("mongoose");
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://wissal-merabet-portfolio.netlify.app',
+}));
+
 
 const port = process.env.Port || 3003; // Use environment variable for port
 

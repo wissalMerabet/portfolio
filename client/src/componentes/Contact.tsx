@@ -25,7 +25,7 @@ export const Contact = () => {
     }
     
 
-    Axios.post("http://localhost:3003/sendMsg", { name, email, message })
+    Axios.post("https://portfolio-dwr8.onrender.com/sendMsg", { name, email, message })
       .then(res => {
         console.log(res.data);
         setSuccessMessage("Message sent successfully!");
