@@ -35,6 +35,20 @@
             "MySQL"
         ],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/wissalMerabet/competition"
+    },
+    {
+        "title": "Fashion E-Commerce Website",
+        "imageSrc": "./assets/P4.png",
+        "description": "This project involved creating a responsive e-commerce web application focused on fashion retail. The platform allows users to browse products, view details, add items to a cart, and complete purchases. It features secure authentication, dynamic product listings, and a user-friendly interface.",
+        "skills": [
+            "React",
+            "Tailwind CSS",
+            "Express",
+            "MongoDB"
+            
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/wissalMerabet/e-commerce"
     }
 ]

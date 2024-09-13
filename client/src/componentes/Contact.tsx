@@ -1,14 +1,11 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useState, useEffect, FormEvent } from 'react';
+
+import { useState, FormEvent } from 'react';
 import Axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 export const Contact = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -17,7 +14,7 @@ export const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const sendMessage = (e: FormEvent) => {
-    e.preventDefault(); // Prevent the default form submission behavior
+    e.preventDefault(); 
 
     if (!name || !email || !message) {
       setErrorMessage("All fields are required!");
@@ -29,7 +26,7 @@ export const Contact = () => {
       .then(res => {
         console.log(res.data);
         setSuccessMessage("Message sent successfully!");
-        setErrorMessage(''); // Clear error message if any
+        setErrorMessage(''); 
         setName('');
         setEmail('');
         setMessage('');

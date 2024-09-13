@@ -30,10 +30,9 @@ mongoose.connect(mongoURI)
     console.error("Error connecting to MongoDB:", error);
   });
 
-// Import your model
+
 const NewMessage = require('./models/message');
 
-// Define routes
 app.get("/Message", async (req, res) => {
   try {
     const msg = await NewMessage.find();
@@ -58,8 +57,6 @@ app.get("/Allmessages", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch messages" });
   }
 });
-
-
 
 
 app.post('/sendMsg', async (req, res) => {
