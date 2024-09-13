@@ -9,7 +9,7 @@ export const Projects = () => {
       <h1 className="font-bold text-bgYellow text-3xl uppercase mb-12">
         projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-16 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-6 ">
         {projects.map((project, index) => (
           <CardProject key={index} project={project} />
         ))}

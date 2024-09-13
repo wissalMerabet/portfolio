@@ -20,7 +20,7 @@ export const About = () => {
                 className="w-1/2 md:w-1/3 mb-8 md:mb-0"
                 data-aos="fade-up"
             />
-            <ul className="space-y-8 md:w-2/3 ">
+            <ul className="space-y-8  md:w-2/3 ">
                 <li className="bg-BgPurpleC flex items-center space-x-5 p-5 rounded-xl shadow-custom-yellow" data-aos="fade-down" >
                     <img src="./assets/frontend.png" alt="" className="w-16 h-16"/>
                     <div>
