@@ -1,5 +1,3 @@
-require('dotenv').config(); // Load environment variables from .env file
-
 const express = require("express");
 const cors = require('cors');
 const mongoose = require("mongoose");
@@ -8,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://wissal-merabet-portfolio.netlify.app',
+  origin: 'https://weesallmer.netlify.app',
 }));
 
 
@@ -63,6 +61,7 @@ app.post('/sendMsg', async (req, res) => {
   const { name, email, message } = req.body;
 
   if (!name || !email || !message) {
+    console.log('Request body missing fields:', req.body);
     return res.status(400).json({ error: "All fields are required" });
   }
 
@@ -70,12 +69,14 @@ app.post('/sendMsg', async (req, res) => {
 
   try {
     await newMsg.save();
+    console.log("Message saved successfully:", newMsg);
     res.status(201).json({ reply: "Message created successfully" });
   } catch (error) {
     console.error("Error saving message:", error);
     res.status(500).json({ error: "Failed to save message" });
   }
 });
+
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
